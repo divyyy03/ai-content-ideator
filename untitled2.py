@@ -32,11 +32,11 @@ Original file is located at
 #         st.write(response.text)
 #
 
-!streamlit run ai_content_ideator.py
+
 
 !pip install streamlit
 
-!streamlit run ai_content_ideator.py
+
 
 !ls
 
