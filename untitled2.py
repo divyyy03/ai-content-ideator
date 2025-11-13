@@ -1,3 +1,6 @@
+# ✅ Ensure latest Google Generative AI SDK
+import subprocess
+subprocess.run(["pip", "install", "--upgrade", "google-generativeai"])
 
 import streamlit as st
 import google.generativeai as genai
