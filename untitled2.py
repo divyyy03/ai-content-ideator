@@ -34,11 +34,3 @@ Original file is located at
 
 
 
-!pip install streamlit
-
-
-
-!ls
-
-from google.colab import files
-files.download("ai_content_ideator.py")
