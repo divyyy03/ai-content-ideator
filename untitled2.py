@@ -15,7 +15,8 @@ if st.button("Generate Ideas"):
         st.warning("Please enter a topic first.")
     else:
         prompt = f"Generate 3 unique content ideas, 3 hooks, and 3 captions for the niche '{topic}'. Make them sound human, engaging, and viral-worthy."
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-pro")
+
         response = model.generate_content(prompt)
         st.subheader("Generated Ideas:")
         st.write(response.text)
