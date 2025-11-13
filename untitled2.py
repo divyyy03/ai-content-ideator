@@ -6,7 +6,7 @@ st.title("🧠 AI Content Ideator")
 st.caption("Generate viral content ideas, hooks, and captions instantly.")
 
 # 🔐 Use Streamlit secrets instead of hardcoding your key
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
+genai.configure(api_key=st.secrets["AIzaSyBsCUwl7NXDwjwy9_kapm5TTjtxJgOEmCc"])
 
 topic = st.text_input("Enter your niche or theme (e.g. AI, self-growth, finance):")
 
